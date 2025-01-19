@@ -1,4 +1,5 @@
 format = """
+$container\
 $cmd_duration\
 [divider](fg:background1 bg:background2)\
 $directory\
@@ -13,6 +14,9 @@ $time\
 $battery
 $character
 """
+
+[container]
+format = '[$symbol \[$name\]](bg:background1 fg:foreground1)'
 
 [fill]
 symbol = '-'
